@@ -9,7 +9,7 @@
  */
 
 var insertButton = function(btnID, btnText){
-    $("#evtInsert").append('<div id="'+btnID+'" data-role="button">'+btnText+'</div>')
+    $("#evtInsert").append('<a id="'+btnID+'" data-role="button">'+btnText+'</a>')
 };
 
 $(document).on("pagecreate", "#pageEvents1", function(){
